@@ -11,6 +11,7 @@ const AboutUs = () => {
             <h1>this is a about page</h1>
             <p>this is the paragraph tag</p>
             <p>ok</p>
+            <p>done</p>
             <Footer></Footer>
         </div>
     );
