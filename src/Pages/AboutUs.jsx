@@ -9,6 +9,7 @@ const AboutUs = () => {
             <Header></Header>
             <NavBar></NavBar>
             <h1>this is a about page</h1>
+            <p>this is the paragraph tag</p>
             <Footer></Footer>
         </div>
     );
