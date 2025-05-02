@@ -165,7 +165,7 @@ const New = () => {
   const displayedProducts = showAll ? products : products.slice(0, 5);
 
   return (
-    <div className="px-20 bg-[#f4f4f4] py-2 border-gray-200 border-0 p-2">
+    <div className="px-20 bg-[#f4f4f4] py-10 border-gray-200 border-2 p-2">
       <div className="flex justify-between items-center mt-2 mb-4 ml-20 mr-23">
         <h2 className="text-2xl font-bold">New Products</h2>
         {!showAll && (

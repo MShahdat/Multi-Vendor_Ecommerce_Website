@@ -8,6 +8,8 @@ import Banner from '../Components/Banner';
 import NavBar from '../Components/NavBar';
 import { Outlet } from 'react-router';
 import New from '../Components/New';
+import Brands from '../Components/Brands';
+import Categories from '../Components/Categories';
 
 const Home = () => {
     return (
@@ -17,7 +19,9 @@ const Home = () => {
             <NavBar></NavBar>
             <Banner></Banner>
             <DailyDeals></DailyDeals>
+            <Brands></Brands>
             <New></New>
+            <Categories></Categories>
             <TopSellers></TopSellers>
             <Footer></Footer>
             
