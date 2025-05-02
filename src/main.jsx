@@ -69,6 +69,7 @@ import Tools from './Pages/Tools'
 import AboutUs from './Pages/AboutUs'
 import ContactUs from './Pages/ContactUs'
 import SideBarSignin from './Components/SideBarSignin'
+import DashboardProductsV from './Pages/DashboardProductsV'
 
 const router = createBrowserRouter([
   {
@@ -235,7 +236,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/dashboard/products",
-    element: <DashboardProducts></DashboardProducts>
+    element: <DashboardProductsV></DashboardProductsV>
   },
   {
     path: "/dashboard/store-details",
