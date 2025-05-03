@@ -250,6 +250,18 @@ const router = createBrowserRouter([
     path: "/dashboard/store-edit",
     element: <EditStoreV></EditStoreV>
   },
+  {
+    path: "/setup",
+    element: <StoreSetup></StoreSetup>
+  },
+  {
+    path: "/ready",
+    element: <StoreReady></StoreReady>
+  },
+  {
+    path: "/welcome",
+    element: <MarketplaceWelcome></MarketplaceWelcome>
+  },
 ]);
 createRoot(document.getElementById('root')).render(
   <StrictMode>

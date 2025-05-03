@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
 import { useNavigate } from "react-router"; // corrected
+import {Link} from "react-router"
 
 const LoginForm = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -93,12 +94,14 @@ const LoginForm = () => {
             
 
             {/* Sign In Button */}
+            <Link to ={'/welcome'}>
             <button
               type="submit"
               className="w-full bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-2 rounded mt-4"
             >
               Sign in
             </button>
+            </Link>
 
             {/* Social Login */}
             <div className="mt-6 text-center">

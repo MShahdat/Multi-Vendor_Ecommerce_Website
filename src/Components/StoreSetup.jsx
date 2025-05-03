@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router"
 
 export default function StoreSetup() {
   return (
@@ -116,12 +117,14 @@ export default function StoreSetup() {
             >
               Continue
             </button>
+            <Link to={'/ready'}>
             <button
               type="button"
               className="border border-blue-500 text-blue-600 hover:bg-blue-50 font-semibold px-6 py-2 rounded"
             >
               Skip this step
             </button>
+            </Link>
           </div>
         </form>
       </div>

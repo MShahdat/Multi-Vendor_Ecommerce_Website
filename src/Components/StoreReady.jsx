@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router'
 
 export default function StoreReady() {
   return (
@@ -36,19 +37,20 @@ export default function StoreReady() {
         <h2 className="text-2xl font-semibold text-gray-700 mb-6">Your Store is Ready!</h2>
 
         {/* Go to Dashboard Button */}
+        <Link to ={'/dashboard'}>
         <button
           className="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-8 py-3 rounded mb-4"
         >
           Go to your Store Dashboard!
         </button>
+        </Link>
 
         {/* Return to Marketplace Link */}
-        <a
-          href="#"
+        <Link to ={'/welcome'}
           className="text-blue-600 hover:underline mt-2 text-sm"
         >
           Return to the Marketplace
-        </a>
+        </Link>
       </div>
 
     </div>

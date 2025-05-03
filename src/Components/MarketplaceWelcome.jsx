@@ -1,3 +1,4 @@
+import {Link} from "react-router"
 export default function MarketplaceWelcome() {
     return (
       <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
@@ -33,12 +34,16 @@ export default function MarketplaceWelcome() {
   
             {/* Buttons */}
             <div className="flex flex-col md:flex-row gap-4 justify-center">
+              <Link to={'/setup'}>
               <button className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded">
                 Let's Go!
               </button>
+              </Link>
+              <Link to ={'/'}>
               <button className="border border-blue-500 text-blue-600 hover:bg-blue-50 font-semibold py-2 px-6 rounded">
                 Not right now
               </button>
+              </Link>
             </div>
           </div>
         </div>
