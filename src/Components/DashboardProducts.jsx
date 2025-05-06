@@ -2,7 +2,7 @@ import { useNavigate, useLocation } from "react-router"; // <-- Add useLocation
 import {Link} from "react-router"
 
 
-export default function DashboardOrders() {
+export default function DashboardProducts() {
   const navigate = useNavigate();
   const location = useLocation(); // <-- Get the current path
 
@@ -44,9 +44,9 @@ export default function DashboardOrders() {
   
           {/* Main Content */}
           <div className="col-span-1 md:col-span-4 space-y-4">
-            <Link className="text-sm font-bold text-green-700 mr-10 hover:text-emerald-900">
+            <Link to= {'/dashboard/products/add'} className="text-sm font-bold text-green-700 mr-10 hover:text-emerald-900">
               + Add New Product
-              </Link>
+            </Link>
             {/* No Products found */}
             <div className="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 rounded mt-6">
               <p className="font-bold">✖ No products found</p>

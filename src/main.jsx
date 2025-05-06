@@ -70,6 +70,8 @@ import AboutUs from './Pages/AboutUs'
 import ContactUs from './Pages/ContactUs'
 import SideBarSignin from './Components/SideBarSignin'
 import DashboardProductsV from './Pages/DashboardProductsV'
+import DashboardProductsAdd from './Components/DashboardProductsAdd'
+import DashboardProductsAddV from './Pages/DashboardProductsAddV'
 
 const router = createBrowserRouter([
   {
@@ -237,6 +239,10 @@ const router = createBrowserRouter([
   {
     path: "/dashboard/products",
     element: <DashboardProductsV></DashboardProductsV>
+  },
+  {
+    path: "/dashboard/products/add",
+    element: <DashboardProductsAddV></DashboardProductsAddV>
   },
   {
     path: "/dashboard/store-details",

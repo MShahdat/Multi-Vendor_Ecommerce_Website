@@ -118,7 +118,7 @@ const Dashboard = () => {
           <div className="bg-gray-200 rounded-xl p-4 text-sm w-132 mb-3">
             <div className="flex justify-between items-center mb-4">
               <div className="ml-10 font-bold text-xl mb-4 text-pink-500">Products</div>
-              <Link className="text-sm font-bold text-green-700 mr-10 hover:text-emerald-900">
+              <Link to ={'/dashboard/products/add'} className="text-sm font-bold text-green-700 mr-10 hover:text-emerald-900">
               + Add New Product
               </Link>
             </div>
