@@ -67,11 +67,14 @@ import AutoMobiles from './Pages/AutoMobiles'
 import Art from './Pages/Art'
 import Tools from './Pages/Tools'
 import AboutUs from './Pages/AboutUs'
-import ContactUs from './Pages/ContactUs'
+import ContactUs from './Pages/Contact'
 import SideBarSignin from './Components/SideBarSignin'
 import DashboardProductsV from './Pages/DashboardProductsV'
 import DashboardProductsAdd from './Components/DashboardProductsAdd'
 import DashboardProductsAddV from './Pages/DashboardProductsAddV'
+import PrivacyPolicy from './Components/PrivacyPolicy'
+import Privacy from './Pages/Privacy'
+import Contact from './Pages/Contact'
 
 const router = createBrowserRouter([
   {
@@ -268,6 +271,14 @@ const router = createBrowserRouter([
     path: "/welcome",
     element: <MarketplaceWelcome></MarketplaceWelcome>
   },
+  {
+    path: "/privacy-policy",
+    element: <Privacy></Privacy>
+  },
+  {
+    path: "/contact-us",
+    element: <Contact></Contact>
+  }
 ]);
 createRoot(document.getElementById('root')).render(
   <StrictMode>

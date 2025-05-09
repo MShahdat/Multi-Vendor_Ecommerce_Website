@@ -85,7 +85,7 @@ const Footer = () => {
               <Link>Investors</Link>
             /</li>
             <li>
-              <Link>Contact Us</Link>
+              <Link to={'/contact-us'}>Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -126,7 +126,7 @@ const Footer = () => {
 
         {/* Footer Navigation */}
         <div className="flex flex-wrap gap-4 mt-2 md:mt-0">
-          <Link>Privacy Policy</Link>
+          <Link to={'/privacy-policy'}>Privacy Policy</Link>
           <Link>Terms of Uses</Link>
           <Link>Legal</Link>
           <Link>site Map</Link>
