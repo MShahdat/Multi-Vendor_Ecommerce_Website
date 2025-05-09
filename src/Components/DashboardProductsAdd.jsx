@@ -99,6 +99,14 @@ export default function DashboardProductsAdd() {
                 className="w-full px-3 py-2 rounded bg-gray-800 text-white border border-gray-600 focus:outline-none"
               />
             </div>
+            <div>
+              <label className="block text-sm mb-1">Product Image</label>
+              <input
+                type="file"
+                accept="image/*"
+                className="w-full px-3 py-2 rounded bg-gray-800 text-white border border-gray-600 focus:outline-none file:mr-4 file:py-1 file:px-4 file:rounded file:border-0 file:text-sm file:font-semibold file:bg-blue-600 file:text-white hover:file:bg-blue-700"
+              />
+            </div>
             <div className="md:col-span-2">
               <label className="block text-sm mb-1">Description</label>
               <textarea
